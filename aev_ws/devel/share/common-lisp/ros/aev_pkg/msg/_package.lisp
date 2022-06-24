@@ -1,0 +1,21 @@
+(cl:defpackage aev_pkg-msg
+  (:use )
+  (:export
+   "<DRIVING_MODE_MSG>"
+   "DRIVING_MODE_MSG"
+   "<ECU_FEEDBACK_MSG>"
+   "ECU_FEEDBACK_MSG"
+   "<GUI_MSG>"
+   "GUI_MSG"
+   "<LANE_DETECTION_MSG>"
+   "LANE_DETECTION_MSG"
+   "<MPC_MSG>"
+   "MPC_MSG"
+   "<OBJECT_DETECTION_MSG>"
+   "OBJECT_DETECTION_MSG"
+   "<RADAR_MSG>"
+   "RADAR_MSG"
+   "<SYSTEM_MONITOR_MSG>"
+   "SYSTEM_MONITOR_MSG"
+  ))
+

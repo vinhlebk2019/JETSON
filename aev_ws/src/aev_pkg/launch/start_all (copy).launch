@@ -1,0 +1,8 @@
+<launch>
+  <node name="DrivingModeSel_1" pkg="aev_pkg" type="DrivingModeSel" />
+  <node name="SystemMonitor_1" pkg="aev_pkg" type="SystemMonitor" />
+  <node name="MPC_1" pkg="aev_pkg" type="MPC" />
+  
+  <node name="Radar_1" pkg="aev_pkg" type="Radar" />
+  <node name="ObjectDetection_1" pkg="aev_pkg" type="ObjectDetection" />
+</launch>

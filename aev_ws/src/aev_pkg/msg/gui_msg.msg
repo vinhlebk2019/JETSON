@@ -1,0 +1,11 @@
+uint32 	msg_counter
+bool 	userReqStart
+bool 	userReqAutoRun
+bool 	userReqStop
+bool 	clearError
+int16 	speedSetpoint
+uint8 	turnSignal
+bool 	horn
+bool 	frontLight
+uint8 steeringLeftRight
+float32 previewCurvature

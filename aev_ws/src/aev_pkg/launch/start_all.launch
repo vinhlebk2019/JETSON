@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find rosbridge_server)/launch/rosbridge_tcp.launch" > 
+     <arg name="port" value="9091"/>
+  </include>
+  <node name="SystemMonitor_1" pkg="aev_pkg" type="SystemMonitor" />
+  <node name="MPC_1" pkg="aev_pkg" type="MPC" />
+</launch>

@@ -1,0 +1,12 @@
+uint32 	msg_counter
+uint8 feedbackSpeed_b1
+uint8 feedbackSpeed_b2
+uint8 feedbackSpeed_b3 
+uint8 feedbackSpeed_b4 
+uint8 	acceleratorLevel
+bool acceleratorSwitch
+bool brakeSwitch
+bool movingDirection
+uint8 	turnSignal
+bool 	horn
+bool 	frontLight
